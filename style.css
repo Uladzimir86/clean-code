@@ -148,11 +148,11 @@ ul li input[type=text] {
     display: none;
 }
 
-.edit-mode input[type=text] {
+.edit-mode .edit-mode-text {
     display: inline-block;
     width: 224px;
 }
 
-.edit-mode label {
+.edit-mode .edit-mode-label {
     display: none;
 }
