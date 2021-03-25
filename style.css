@@ -34,7 +34,7 @@ body {
     display: inline-block;
     flex-grow: 1;
 }
-.section-add-task-wrapper {
+.section-add-item-wrapper {
     display: flex;
 }
 ul {
@@ -138,7 +138,7 @@ button.button-delete img:hover {
 }
 
 /* Completed */
-ul#completed-tasks label {
+ul#section-completed label {
     text-decoration: line-through;
     color: #888;
 }
