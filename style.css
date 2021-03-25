@@ -58,7 +58,7 @@ button {
     font-family: Lato, sans-serif;
     cursor: pointer;
 }
-button: hover {
+button:hover {
     color: #3a3A3a;
 }
 /* Heading */
@@ -96,7 +96,7 @@ label[for="input-new-task"] {
 input#input-new-task {
     width: 318px;
 }
-p > button: hover {
+p > button:hover {
     color: #0FC57C;
 }
 
@@ -125,7 +125,7 @@ li > label {
 li > input[type="text"] {
     width: 226px;
 }
-li > button.button-delete: hover {
+li > button.button-delete:hover {
     color: #CF2323;
 }
 button.button-delete img {
@@ -133,7 +133,7 @@ button.button-delete img {
     transform: rotateZ(45deg);
     transition: transform 200ms ease-in;
 }
-button.button-delete img: hover {
+button.button-delete img:hover {
     transform: rotateZ(0);
 }
 
