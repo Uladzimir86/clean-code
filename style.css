@@ -41,7 +41,8 @@ ul {
     margin: 0;
     padding: 0px;
 }
-li, 
+li,
+h1, 
 h3 {
     list-style: none;
 }
@@ -62,6 +63,7 @@ button:hover {
     color: #3a3A3a;
 }
 /* Heading */
+h1,
 h3,
 label[for="input-new-task"] {
     color: #333;
