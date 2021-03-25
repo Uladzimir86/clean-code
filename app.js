@@ -45,6 +45,7 @@ var createNewTaskElement=function(taskString){
 
     deleteButton.className="button-delete";
     deleteButtonImg.src='./remove.svg';
+    deleteButtonImg.className="button-delete-img";
     deleteButton.appendChild(deleteButtonImg);
 
 
@@ -122,6 +123,7 @@ var taskCompleted=function(){
     //Append the task list item to the #section-completed
     var listItem=this.parentNode;
     completedTasksHolder.appendChild(listItem);
+    listItem.querySelector("label").classList.add("text-line-through");
     bindTaskEvents(listItem, taskIncomplete);
 
 }
@@ -134,6 +136,7 @@ var taskIncomplete=function(){
     //Append the task list item to the #section-todo.
     var listItem=this.parentNode;
     incompleteTaskHolder.appendChild(listItem);
+    listItem.querySelector("label").classList.remove("text-line-through");
     bindTaskEvents(listItem,taskCompleted);
 }
 
