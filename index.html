@@ -26,27 +26,27 @@
           <input id="section-add-item__input-new-task"
                  class="input-task input-task_long-width" 
                  type="text">
-          <button>Add</button>
+          <button class="button">Add</button>
         </div>
       </section>
-      <h1>Todo</h1>
       <section class="section-todo">
-        <ul id="section-todo__list">
-          <li>
+        <h1 class="section-heading">Todo</h1>
+        <ul id="section-todo__list" class="list">
+          <li class="list_item">
             <input type="checkbox" class="checkbox">
             <label class="label-task label-task_none">Pay Bills</label>
             <input type="text" 
                    class="input-task 
                           input-task_short-width
                           input-task_edit-mode">
-            <button class="button-edit">Edit</button>
-            <button class="button-delete">
+            <button class="button button_edit">Edit</button>
+            <button class="button button_delete">
               <img src="./remove.svg" 
-                   class="button-delete__svg" 
-                   alt="button-delete">
+                   class="button_delete_svg" 
+                   alt="button_delete">
             </button>
           </li>
-          <li class="edit-mode">
+          <li class="list_item edit-mode">
             <input type="checkbox" class="checkbox">
             <label class="label-task label-task_none">Go Shopping</label>
             <input type="text" 
@@ -54,19 +54,19 @@
                           input-task_short-width 
                           input-task_edit-mode"
                    value="Go Shopping">
-            <button class="button-edit">Save</button>
-            <button class="button-delete">
+            <button class="button button_edit">Save</button>
+            <button class="button button_delete">
               <img src="./remove.svg" 
-                   class="button-delete__svg" 
-                   alt="button-delete">
+                   class="button_delete_svg" 
+                   alt="button_delete">
             </button>
           </li>
         </ul>
       </section>
       <section class="section-completed">
-        <h3>Completed</h3>
-        <ul id="section-completed__list">
-          <li>
+        <h3 class="section-heading">Completed</h3>
+        <ul id="section-completed__list" class="list">
+          <li class="list_item">
             <input type="checkbox" class="checkbox" checked>
             <label class="label-task 
                           task_text-cross-out 
@@ -76,11 +76,11 @@
             <input type="text" 
                    class="input-task 
                           input-task_edit-mode">
-            <button class="button-edit">Edit</button>
-            <button class="button-delete">
+            <button class="button button_edit">Edit</button>
+            <button class="button button_delete">
               <img src="./remove.svg" 
-                   class="button-delete__svg" 
-                   alt="button-delete">
+                   class="button_delete_svg" 
+                   alt="button_delete">
             </button>
           </li>
         </ul>
